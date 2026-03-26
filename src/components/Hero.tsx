@@ -10,9 +10,9 @@ export default function Hero() {
     <section className="relative min-h-[100dvh] flex items-center overflow-hidden bg-navy-900 pt-6 md:pt-20">
       {/* Cinematic Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 -left-40 w-[600px] h-[600px] bg-emerald-500/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob"></div>
-        <div className="absolute top-40 -right-40 w-[600px] h-[600px] bg-blue-500/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-40 left-20 w-[600px] h-[600px] bg-emerald-700/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob animation-delay-4000"></div>
+        <div className="hidden md:block absolute top-0 -left-40 w-[600px] h-[600px] bg-emerald-500/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob" aria-hidden="true"></div>
+        <div className="hidden md:block absolute top-40 -right-40 w-[600px] h-[600px] bg-blue-500/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob animation-delay-2000" aria-hidden="true"></div>
+        <div className="hidden md:block absolute -bottom-40 left-20 w-[600px] h-[600px] bg-emerald-700/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob animation-delay-4000" aria-hidden="true"></div>
         
         {/* Subtle grid pattern overlay */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxwYXRoIGQ9Ik0wIDBoNDB2NDBIMHoiIGZpbGw9Im5vbmUiLz4KPHBhdGggZD0iTTAgMTBoNDBNMTAgMHY0ME0wIDIwaDQwTTIwIDB2NDBNMCAzMGg0ME0zMCAwdjQwIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wMykiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4=')] opacity-30"></div>

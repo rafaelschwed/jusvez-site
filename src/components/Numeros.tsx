@@ -4,7 +4,8 @@ const stats = [
   { value: "1.3M", suffix: "+", label: "Pacientes na fila do SUS" },
   { value: "634", suffix: "dias", label: "De espera média por procedimento" },
   { value: "460K", suffix: "", label: "Ações de saúde anuais no Brasil" },
-  { value: "84", suffix: "%", label: "Taxa de sucesso nas ações" },
+  { value: "73-84", suffix: "%", label: "Taxa de sucesso nas ações" },
+  { value: "97,8", suffix: "%", label: "De sucesso em segunda instância" },
 ];
 
 export default function Numeros() {
@@ -45,7 +46,7 @@ export default function Numeros() {
 
         <div
           ref={ref}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8"
         >
           {stats.map((stat, i) => (
             <div

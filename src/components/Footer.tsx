@@ -100,7 +100,7 @@ export default function Footer() {
                 Advogados OAB/SC
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 rounded text-white/50 text-xs font-bold tracking-wider">
-                CNPJ 50.000.000/0001-00
+                Florianópolis/SC
               </span>
             </div>
           </div>

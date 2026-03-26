@@ -64,6 +64,8 @@ export default function FAQ() {
                 <button
                   className="w-full text-left px-8 py-6 flex items-center justify-between gap-6"
                   onClick={() => setOpen(isOpen ? null : i)}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${i}`}
                 >
                   <span className={`font-black text-lg sm:text-xl pr-4 transition-colors ${
                     isOpen ? "text-white" : "text-navy-900"
@@ -79,6 +81,8 @@ export default function FAQ() {
                   </div>
                 </button>
                 <div
+                  id={`faq-answer-${i}`}
+                  role="region"
                   className={`transition-all duration-500 ease-in-out ${
                     isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                   }`}

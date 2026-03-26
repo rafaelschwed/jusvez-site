@@ -14,9 +14,8 @@ export default function WhatsAppButton() {
       </span>
 
       <div className="relative flex items-center justify-center w-16 h-16 md:w-20 md:h-20">
-        {/* Pulsing rings */}
-        <div className="absolute inset-0 rounded-full bg-emerald-500 opacity-20 animate-pulse-ring"></div>
-        <div className="absolute inset-0 rounded-full bg-emerald-400 opacity-40 animate-ping" style={{ animationDuration: '3s' }}></div>
+        {/* Pulsing ring */}
+        <div className="absolute inset-0 rounded-full bg-emerald-500 opacity-20 animate-pulse-ring" aria-hidden="true"></div>
         
         {/* Main button */}
         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-emerald-600 to-emerald-400 shadow-[0_10px_30px_rgba(0,230,118,0.5)] flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 ease-out z-10">

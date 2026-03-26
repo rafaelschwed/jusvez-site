@@ -6,19 +6,19 @@
 @theme inline {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-  
+
   --color-navy-900: #0A1128;
   --color-navy-800: #101E42;
   --color-navy-700: #1A2B5C;
-  
+
   --color-emerald-400: #2df89b;
   --color-emerald-500: #00E676;
   --color-emerald-600: #00C863;
   --color-emerald-700: #00a04f;
-  
+
   --color-gold-400: #FFD54F;
   --color-gold-500: #FFC107;
-  
+
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
@@ -45,9 +45,6 @@
   }
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-600;
-  }
-  .text-gradient-gold {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-400 to-amber-500;
   }
 }
 
@@ -82,4 +79,19 @@
 }
 .animate-pulse-ring {
   animation: pulse-ring 2s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+/* Accessibility: respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-blob,
+  .animate-pulse-ring,
+  .animate-ping,
+  .animate-bounce,
+  .animate-pulse {
+    animation: none !important;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -74,7 +74,8 @@ export default function Navbar() {
               scrolled ? "text-navy-900 hover:bg-navy-900/5" : "text-white hover:bg-white/10"
             }`}
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Menu"
+            aria-label="Abrir menu de navegação"
+            aria-expanded={menuOpen}
           >
             {menuOpen ? (
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
