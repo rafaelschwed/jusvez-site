@@ -61,10 +61,10 @@ export default function Numeros() {
               </div>
               
               <div className="flex items-baseline justify-center font-black mb-2 text-white relative">
-                <span className="text-6xl md:text-7xl lg:text-[5.5rem] tracking-tighter text-shadow-md">
+                <span className="text-6xl md:text-7xl lg:text-5xl xl:text-6xl tracking-tighter text-shadow-md">
                   {stat.value}
                 </span>
-                <span className="text-3xl md:text-5xl text-emerald-400 ml-1 font-bold">
+                <span className="text-3xl md:text-5xl lg:text-2xl xl:text-3xl text-emerald-400 ml-1 font-bold">
                   {stat.suffix}
                 </span>
               </div>
