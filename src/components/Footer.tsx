@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/50 text-base leading-relaxed mb-6 font-light pr-4">
-              Consultoria especializada em conectar pacientes do SUS a soluções jurídicas ágeis. Sua saúde tratada com a prioridade e urgência que a lei determina.
+              Consultoria administrativa que organiza a documentação e orienta pacientes do SUS sobre seus direitos. Sua saúde tratada com a prioridade e urgência que a lei determina.
             </p>
             <div className="inline-flex items-center justify-center px-4 py-2 bg-white/5 rounded-lg border border-white/10">
               <span className="text-white/40 text-sm font-medium">Sede: Florianópolis, SC</span>
@@ -50,7 +50,7 @@ export default function Footer() {
             <h4 className="text-white font-bold text-lg mb-6 tracking-wide">Fale Conosco</h4>
             <div className="flex flex-col gap-5">
               <a
-                href="https://wa.me/5548999999999"
+                href="https://wa.me/5548998168948"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-500/50 hover:bg-emerald-500/10 transition-all"
@@ -62,7 +62,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <div className="text-white/40 text-xs font-bold uppercase tracking-wider mb-1">WhatsApp</div>
-                  <div className="text-white font-semibold text-lg">(48) 99999-9999</div>
+                  <div className="text-white font-semibold text-lg">(48) 99816-8948</div>
                 </div>
               </a>
               
@@ -105,7 +105,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-white/30 text-xs font-medium max-w-xl">
-            Aviso Legal: Os serviços jurídicos são prestados exclusivamente por advogados independentes inscritos na OAB, não havendo captação de clientela ou prestação de serviços jurídicos diretamente pela plataforma, em conformidade com o Estatuto da Advocacia.
+            Aviso Legal: A JusVez é uma empresa de consultoria administrativa (CNAE 7020-4/00) — não é escritório de advocacia e não presta serviços jurídicos. Os serviços jurídicos são prestados exclusivamente por advogados independentes inscritos na OAB, sem captação de clientela pela plataforma, em conformidade com o Estatuto da Advocacia (Lei 8.906/94) e o Provimento 205/2021 do CFOAB.
           </p>
         </div>
       </div>

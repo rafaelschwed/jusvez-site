@@ -4,11 +4,11 @@ import { WHATSAPP_URL } from "@/lib/constants";
 const faqs = [
   {
     q: "Quanto custa a consulta inicial?",
-    a: "A avaliação do seu caso é totalmente gratuita. Você só paga se decidir seguir com a ação judicial. O valor dos honorários advocatícios é combinado diretamente com o advogado responsável pelo seu caso.",
+    a: "A análise inicial é gratuita — verificamos se você se enquadra nos critérios sem custo. Se optar por seguir, temos dois caminhos acessíveis: a Mini Defesa (via administrativa, a partir de R$ 119,90) e a Ação no Juizado Especial (sem advogado, a partir de R$ 289,90). Para casos que exigem representação jurídica, os honorários são combinados diretamente com o advogado.",
   },
   {
     q: "Preciso de advogado para entrar com ação?",
-    a: "Sim. A JusVez faz toda a triagem, análise e preparação do caso. Quando identificamos viabilidade jurídica, conectamos você a um advogado especialista em direito à saúde, inscrito na OAB/SC.",
+    a: "Depende do caminho. A Mini Defesa (via administrativa) e a Ação no Juizado Especial não exigem advogado — você mesmo protocola. Para casos mais complexos, preparamos toda a documentação para que um advogado especialista em saúde possa agir imediatamente, sem precisar começar do zero.",
   },
   {
     q: "Quanto tempo demora o processo judicial?",
@@ -20,15 +20,19 @@ const faqs = [
   },
   {
     q: "Funciona para plano de saúde (convênio) também?",
-    a: "Sim. Quando o plano de saúde nega um procedimento, exame ou cirurgia que foi prescrito pelo médico, também é possível buscar a via judicial. Avaliamos esses casos também.",
+    a: "Sim. Quando o plano de saúde nega um procedimento, exame ou cirurgia prescrito pelo médico, também é possível buscar a via judicial. Verificamos sua situação e organizamos a documentação necessária.",
   },
   {
     q: "E se eu perder a ação?",
-    a: "A taxa de sucesso em ações de saúde contra o SUS é de 73-84% (e chega a 97,8% em segunda instância). Avaliamos cada caso antes de recomendar a ação judicial, só seguimos com casos que têm boa fundamentação.",
+    a: "Antes de recomendar qualquer caminho, verificamos se o seu caso se enquadra nos critérios legais. Os dados do CNJ mostram que ações de saúde têm alta taxa de êxito — mas trabalhamos apenas com casos bem fundamentados para maximizar suas chances.",
+  },
+  {
+    q: "Preciso entrar com processo judicial?",
+    a: "Não necessariamente. Verificamos os critérios do seu caso e indicamos o caminho mais rápido. Muitos casos resolvem pela via administrativa (Mini Defesa) — sem processo e sem advogado. Se não resolver, passamos para a Ação no Juizado Especial (também sem advogado). Só indicamos o processo judicial completo quando os casos anteriores não são suficientes ou quando o caso exige representação.",
   },
   {
     q: "A JusVez é um escritório de advocacia?",
-    a: "Não. A JusVez é uma empresa de consultoria em gestão empresarial. Fazemos a triagem, análise e preparação do caso. Os serviços jurídicos são prestados por advogados independentes devidamente inscritos na OAB.",
+    a: "Não. A JusVez é uma empresa de consultoria administrativa (CNAE 7020-4/00). Organizamos a documentação e orientamos sobre os critérios legais. Os serviços jurídicos são prestados exclusivamente por advogados independentes inscritos na OAB.",
   },
 ];
 
@@ -101,7 +105,7 @@ export default function FAQ() {
 
         <div className="mt-16 text-center bg-gray-50 rounded-[2rem] p-8 md:p-12 border border-gray-100">
           <h3 className="text-2xl md:text-3xl font-black text-navy-900 mb-4">Ainda tem dúvidas?</h3>
-          <p className="text-gray-600 mb-8 max-w-xl mx-auto">Nossa equipe está pronta para avaliar o seu caso de forma 100% gratuita e confidencial.</p>
+          <p className="text-gray-600 mb-8 max-w-xl mx-auto">Nossa equipe está pronta para verificar sua situação e indicar o melhor caminho — sem compromisso.</p>
           <a
             href={WHATSAPP_URL}
             target="_blank"

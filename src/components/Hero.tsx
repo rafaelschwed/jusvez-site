@@ -26,7 +26,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-emerald-500"></span>
               </span>
-              73-84% de sucesso contra o SUS
+              Via administrativa ou judicial — Florianópolis, SC
             </div>
 
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[5rem] font-black text-white leading-[1.1] md:leading-[1.05] tracking-tight mb-4 md:mb-8">
@@ -39,7 +39,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-2xl text-white/70 leading-relaxed mb-6 md:mb-10 max-w-2xl font-light mx-auto">
-              Chega de descaso. Avaliamos seu caso <strong className="text-white font-semibold">gratuitamente</strong> e conectamos você a advogados que exigem seus direitos na justiça.
+              Chega de descaso. Preparamos sua documentação completa e mostramos o caminho mais rápido para garantir seu atendimento — <strong className="text-white font-semibold">administrativo ou judicial</strong>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 md:gap-5 justify-center">
@@ -63,7 +63,7 @@ export default function Hero() {
 
             <div className="mt-8 md:mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 pt-6 md:pt-10 border-t border-white/10 max-w-2xl mx-auto">
               {[
-                { title: "Consulta 100% Gratuita", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+                { title: "Análise inicial gratuita", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
                 { title: "Retorno em 24 horas", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
                 { title: "Especialistas OAB/SC", icon: "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" }
               ].map((item, i) => (

@@ -1,43 +1,36 @@
 const steps = [
   {
     num: "01",
+    price: "a partir de R$ 119,90",
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
       </svg>
     ),
-    title: "Contato Via WhatsApp",
-    desc: "Você nos conta sua situação pelo WhatsApp. É rápido, sem burocracia e totalmente gratuito.",
+    title: "Mini Defesa",
+    desc: "Enviamos uma carta formal fundamentada para a Secretaria de Saúde, Ouvidoria e Disque Saúde. Resolve ~25% dos casos em até 30 dias — sem processo judicial.",
   },
   {
     num: "02",
+    price: "a partir de R$ 289,90",
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
       </svg>
     ),
-    title: "Análise Especializada",
-    desc: "Nossa equipe avalia seu caso sem custo para confirmar a viabilidade jurídica do pedido.",
+    title: "Ação no Juizado",
+    desc: "Geramos a petição completa com base legal para você protocolar no Juizado Especial — sem precisar de advogado. Liminar média em 19 dias.",
   },
   {
     num: "03",
-    icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-      </svg>
-    ),
-    title: "Reunião de Documentos",
-    desc: "Orientamos sobre os laudos médicos e comprovantes necessários para fundamentar o pedido.",
-  },
-  {
-    num: "04",
+    price: "honorários a combinar",
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
       </svg>
     ),
-    title: "Ação Judicial Direta",
-    desc: "Encaminhamos tudo para um advogado especialista agir na justiça e garantir sua cirurgia.",
+    title: "Processo com Advogado",
+    desc: "Para casos complexos ou que precisam de representação. Você chega ao advogado com tudo pronto — dossiê, petição e fundamentação. Ele só precisa revisar e assinar.",
   },
 ];
 
@@ -64,7 +57,7 @@ export default function ComoFunciona() {
           {/* Connecting Line */}
           <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-emerald-100 via-emerald-400 to-emerald-100 -translate-y-1/2 z-0 opacity-50" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6 relative z-10 mt-8 md:mt-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-6 relative z-10 mt-8 md:mt-0">
             {steps.map((step, idx) => (
               <div
                 key={step.num}
@@ -79,9 +72,12 @@ export default function ComoFunciona() {
                   <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-navy-900 text-emerald-400 flex items-center justify-center mb-6 md:mb-8 shadow-lg group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-navy-900 transition-all duration-500 -mt-12 md:-mt-16">
                     {step.icon}
                   </div>
-                  <h3 className="text-2xl font-black text-navy-900 mb-4 group-hover:text-emerald-600 transition-colors">
+                  <h3 className="text-2xl font-black text-navy-900 mb-2 group-hover:text-emerald-600 transition-colors">
                     {step.title}
                   </h3>
+                  <p className="text-emerald-600 text-sm font-bold mb-4 uppercase tracking-wide">
+                    {step.price}
+                  </p>
                   <p className="text-gray-500 text-base leading-relaxed font-medium">
                     {step.desc}
                   </p>
