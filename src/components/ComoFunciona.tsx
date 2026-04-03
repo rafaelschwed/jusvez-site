@@ -45,8 +45,8 @@ export default function ComoFunciona() {
             Jornada Simplificada
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-navy-900 mb-6 tracking-tight">
-            Como garantimos o seu <br className="hidden sm:block" />
-            <span className="text-gradient">direito à saúde</span>
+            Como ajudamos você a exercer <br className="hidden sm:block" />
+            <span className="text-gradient">seu direito à saúde</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-500 max-w-3xl mx-auto font-light leading-relaxed">
             Esqueça a burocracia. Desenhamos um processo ágil e direto ao ponto para tirar você da fila de espera o mais rápido possível.

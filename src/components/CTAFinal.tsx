@@ -16,7 +16,7 @@ export default function CTAFinal() {
         </h2>
         
         <p className="text-xl md:text-2xl text-navy-900/80 font-medium mb-12 max-w-2xl mx-auto">
-          Faça uma avaliação gratuita do seu caso agora mesmo. Leva menos de 2 minutos.
+          Fale com a gente e descubra qual é o seu próximo passo. Leva menos de 2 minutos.
         </p>
         
         <div className="flex flex-col items-center justify-center">
