@@ -4,7 +4,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 const faqs = [
   {
     q: "Quanto custa a consulta inicial?",
-    a: "A análise inicial é gratuita — verificamos se você se enquadra nos critérios sem custo. Se optar por seguir, temos dois caminhos acessíveis: a Mini Defesa (via administrativa, a partir de R$ 119,90) e a Ação no Juizado Especial (sem advogado, a partir de R$ 289,90). Para casos que exigem representação jurídica, os honorários são combinados diretamente com o advogado.",
+    a: "A análise inicial é gratuita — verificamos se você se enquadra nos critérios sem custo. Se optar por seguir, temos dois caminhos acessíveis: a Mini Defesa (via administrativa, a partir de R$ 179,90) e a Ação no Juizado Especial (sem advogado, a partir de R$ 349,90). Para casos que exigem representação jurídica, os honorários são combinados diretamente com o advogado.",
   },
   {
     q: "Preciso de advogado para entrar com ação?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "E se eu perder a ação?",
-    a: "Antes de recomendar qualquer caminho, verificamos se o seu caso se enquadra nos critérios legais. Os dados do CNJ mostram que ações de saúde têm alta taxa de êxito — mas trabalhamos apenas com casos bem fundamentados para maximizar suas chances.",
+    a: "Antes de recomendar qualquer caminho, verificamos se o seu caso se enquadra nos critérios legais. Trabalhamos apenas com casos bem fundamentados para maximizar suas chances de sucesso.",
   },
   {
     q: "Preciso entrar com processo judicial?",

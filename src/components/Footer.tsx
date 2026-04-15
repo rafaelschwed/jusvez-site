@@ -97,7 +97,7 @@ export default function Footer() {
                 Site Seguro
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 rounded text-white/50 text-xs font-bold uppercase tracking-wider">
-                Advogados OAB/SC
+                Advogados independentes OAB/SC
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 rounded text-white/50 text-xs font-bold tracking-wider">
                 Florianópolis/SC

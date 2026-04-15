@@ -33,7 +33,7 @@ export default function CTAFinal() {
           
           <div className="mt-8 flex items-center gap-2 text-navy-900/70 font-semibold bg-white/20 px-5 py-2 rounded-full backdrop-blur-sm">
             <span className="w-2.5 h-2.5 rounded-full bg-navy-900 animate-pulse"></span>
-            Especialistas disponíveis agora
+            Equipe disponível agora
           </div>
         </div>
       </div>
